@@ -5,6 +5,7 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration
 
 fun main() {
     val config = Lwjgl3ApplicationConfiguration()
+    config.setWindowedMode(800, 800)
     config.setForegroundFPS(60)
     config.setTitle("3DGame")
     Lwjgl3Application(My3DGame(), config)
